@@ -120,8 +120,8 @@ switch (item) {
   location.reload();
 };
 // Checkout
-alert("with the items you want, you go to the cashier");
-alert("The Cashier scans your items");
+console.log("with the items you want, you go to the cashier");
+console.log("The Cashier scans your items");
 
 if(ShoppingBasket[0] === "Apple/Banana") {
   cost = cost + 1.50;
@@ -140,7 +140,7 @@ if(ShoppingBasket[1]!== "Peanuts"){
   console.log(`cost is £${cost}`);
 };
 
-alert("The cashier asks you to pay");
+console.log("The cashier asks you to pay");
 if (wallet >= cost){
   alert("you pay for the items");
   wallet = wallet-cost;
